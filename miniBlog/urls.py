@@ -30,5 +30,4 @@ urlpatterns = [
     path('addpost/', views.addpost,name='addpost'),
     path('updatepost/<int:id>/', views.updatepost,name='updatepost'),
     path('deletepost/<int:id>/', views.deletepost,name='deletepost'),
-
 ]
