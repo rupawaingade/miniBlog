@@ -74,7 +74,7 @@ def addpost(request):
                 desc=form.cleaned_data['desc']
                 pst=Post(title=title,desc=desc)
                 pst.save()
-                messages.success(request,'You have suceffully added your blog!!')
+                messages.success(request,'You have successfully added your blog!!')
                 form=PostForm()
         else:
             form=PostForm()
